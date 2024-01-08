@@ -1,13 +1,82 @@
-header {
-  background-image: url(../assets/Banner_Image.png);
-  background-repeat: no-repeat;
-  width: 95%;
+* {
+  font-family: "Bungee Spice", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* header {
+  margin: 50px 140px;
+  width: 100%;
   height: 600px;
   text-align: center;
   color: white;
+  align-items: center;
+} */
+.container-header {
+  position: relative;
+  text-align: center;
+  margin: 50px 140px 40px;
 }
-.welcome-to-midnight {
+.image-container {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 100%;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+.text-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
+}
+.header-1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+.header-2 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* style in main */
+
+.off {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  padding-bottom: 48px;
+  font-size: 88px;
+  font-weight: 700;
+}
+.holiday {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.img-new-year{
+  text-align: center;
+  margin-top: 48px;
+}
+
+/* .welcome-to-midnight {
   background-image: url(../assets/Vectorrr.png);
   width: 1320px;
   height: 600px;
-}
+} */
