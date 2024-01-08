@@ -1,0 +1,13 @@
+header {
+  background-image: url(../assets/Banner_Image.png);
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+.welcome-to-midnight {
+  background-image: url(../assets/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+}
