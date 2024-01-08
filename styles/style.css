@@ -14,7 +14,7 @@
   color: white;
   align-items: center;
 } */
-section{
+main section {
   margin-bottom: 120px;
 }
 .container-header {
@@ -167,3 +167,160 @@ a {
 }
 
 /* coming soon portion */
+.coming-soon-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 140px;
+  gap: 120px;
+}
+.new-best-offer {
+  vertical-align: middle;
+}
+.new-offer {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* coming soon section */
+.coming-soon {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.coming-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.round-img {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 50px;
+}
+.year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.hpy-img {
+  margin-top: 43px;
+}
+
+/* what is functional */
+.holiday-sale {
+  margin: 0 266px;
+  margin-top: 120px;
+  text-align: center;
+}
+.what-is {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holidays {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+/* subscribe newsletter */
+.subscribe {
+  margin: 0 140px;
+  margin-bottom: 120px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  padding: 80px 300px;
+}
+.subs {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+.input-btn {
+  margin-top: 48px;
+}
+.email-input {
+  border: none;
+  width: 440px;
+  padding: 25px 30px;
+  font-size: 18px;
+  border-radius: 50px 0px 0px 50px;
+  background: #fff;
+  margin-right: 0;
+}
+.subs-btn {
+  border-radius: 0px 50px 50px 0px;
+  border: none;
+  margin-left: 0;
+  padding: 21px 56px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* footer section */
+footer {
+  background: #070211;
+  margin: 0;
+  padding: 120px 140px 100px;
+}
+.footer-info {
+  display: flex;
+  gap: 50%;
+}
+.foot-div-info {
+  color: #fff;
+  padding: 50px 0px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.foot-info {
+  display: inline;
+  margin: 15px;
+  /* padding: 0 0 15px 5px;
+  margin: 0 0 15px 5px; */
+}
+.foot-icons {
+  text-align: center;
+  padding: 50px 600px;
+}
+.emg {
+  margin: 0 12px 0;
+}
+.footer-last {
+  display: flex;
+  margin-top: 50px;
+  /* margin: 50px 0 120px; */
+  gap: 70%;
+}
+.footer-copy-right {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
