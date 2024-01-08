@@ -14,6 +14,9 @@
   color: white;
   align-items: center;
 } */
+section{
+  margin-bottom: 120px;
+}
 .container-header {
   position: relative;
   text-align: center;
@@ -25,7 +28,7 @@
   margin-bottom: 100px;
   width: 100%;
   border-radius: 16px;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background: linear-gradient(#070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 .text-header {
   position: absolute;
@@ -70,9 +73,45 @@
   font-size: 48px;
   font-weight: 700;
 }
-.img-new-year{
+.img-new-year {
   text-align: center;
   margin-top: 48px;
+  margin-bottom: 120px;
+}
+.welcome {
+  position: absolute;
+  top: 0;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 1;
+  display: flex;
+}
+.welcome-head {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.welcome-para {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+a {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.text-description {
+  position: absolute;
+  color: #141212;
+  z-index: 1;
 }
 
 /* .welcome-to-midnight {
@@ -80,3 +119,51 @@
   width: 1320px;
   height: 600px;
 } */
+
+/* occasion info style */
+.occasion-info {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  padding: 100px 380px 210px;
+  margin: auto 140px;
+  border-radius: 10px;
+}
+.topic {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  display: inline;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.info {
+  color: #070211;
+  font-family: Inter;
+  display: inline;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.join-now {
+  color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 64px;
+  background: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* coming soon portion */
