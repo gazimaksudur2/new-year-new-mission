@@ -246,6 +246,7 @@ span {
 }
 .images1{
   position: relative;
+  margin-right: 0;
   float: right;
 }
 .images2{
@@ -256,7 +257,7 @@ span {
   top: 50%;
   left: 50%;
   box-shadow: #141212;
-  transform: translate(-100%, 545%);
+  transform: translate(-100%, 510%);
   color: #fff;
   z-index: 1;
 }
