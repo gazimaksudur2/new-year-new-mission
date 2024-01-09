@@ -308,7 +308,7 @@ span {
 }
 .email-input {
   border: none;
-  width: 440px;
+  width: 40%;
   padding: 25px 30px;
   font-size: 18px;
   border-radius: 50px 0px 0px 50px;
@@ -354,7 +354,7 @@ footer {
 }
 .foot-icons {
   text-align: center;
-  padding: 50px 600px;
+  padding: 50px 0px;
 }
 .emg {
   margin: 0 12px 0;
