@@ -384,11 +384,11 @@ span {
 footer {
   background: #070211;
   margin: 0;
-  padding: 120px 140px 100px;
+  padding: 120px 140px;
 }
 .footer-info {
   display: flex;
-  gap: 50%;
+  gap: 40%;
 }
 .foot-div-info {
   color: #fff;
