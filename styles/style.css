@@ -216,12 +216,16 @@ a {
 /* coming soon portion */
 .coming-soon-section {
   display: flex;
+  gap: 5px;
   justify-content: space-evenly;
   margin: 0 140px;
-  gap: 120px;
 }
 .new-best-offer {
-  vertical-align: middle;
+  padding-top: 5%;
+  width: 27%;
+}
+.new-best-offer1 {
+  width: 45%;
 }
 .new-offer {
   color: #f00;
@@ -250,6 +254,7 @@ a {
 .round-img {
   border-radius: 463px;
   border: 15px solid #f00;
+  height: 80%;
   padding: 50px;
 }
 .year {
