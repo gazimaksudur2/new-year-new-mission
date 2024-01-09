@@ -13,11 +13,11 @@ main section {
 .container-header {
   background-image: url(../assets/Banner_Image.png);
   background-repeat: no-repeat;
-  background-blend-mode: color-burn;
-  opacity: 2;
   background-size: 100% 100%;
   margin: 140px 120px;
-}
+  /* position: relative;
+  z-index: 9; */
+}sssssssssss
 .text-header {
   padding: 170px 350px;
 }
@@ -234,7 +234,7 @@ span {
   margin: 320px 140px 0 140px;
 }
 .discount-div1{
-  
+
 }
 /* .images1 {
   position: relative;
@@ -277,6 +277,9 @@ span {
 }
 .product-show {
   margin: 48px 0 120px 140px;
+}
+.product-img:hover {
+  opacity: 0.4;
 }
 .img-show {
   margin-bottom: 24px;
