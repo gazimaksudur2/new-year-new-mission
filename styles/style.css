@@ -13,11 +13,12 @@ main section {
 .container-header {
   background-image: url(../assets/Banner_Image.png);
   background-repeat: no-repeat;
+  height: 100vh;
   background-size: 100% 100%;
   margin: 140px 120px;
   /* position: relative;
   z-index: 9; */
-}sssssssssss
+}
 .text-header {
   padding: 170px 350px;
 }
