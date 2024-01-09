@@ -179,6 +179,7 @@ a {
 .new-offer {
   color: #f00;
   text-align: left;
+  margin-bottom: 16px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
@@ -188,6 +189,7 @@ a {
 .coming-soon {
   color: #070211;
   font-family: Merriweather;
+  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 900;
 }
@@ -237,6 +239,50 @@ span {
   font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
+}
+/* wow graphics */
+.wow-graphics{
+  margin: 64px 140px 0 140px;
+}
+.images1{
+  position: relative;
+  float: right;
+}
+.images2{
+  position: relative;
+}
+.images3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: #141212;
+  transform: translate(-100%, 545%);
+  color: #fff;
+  z-index: 1;
+}
+
+/* Awesome portfolio section styles */
+.awesome-portfolio-section{
+  margin: 120px 140px 0px;
+}
+.awesome-portfolio{
+
+}
+.coming-des{
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 55%;
+}
+.product-show{
+  margin: 48px 0 120px 140px;
+}
+.img-show{
+  margin-bottom: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 /* subscribe newsletter */
